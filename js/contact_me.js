@@ -20,12 +20,13 @@ $(function() {
             $.ajax({
                 url: "https://formspree.io/gkwong85@gmail.com", 
                 method: "POST",
-                dataType: "application/json"
                 data: {
                     name: name,
                     email: email,
+                    phone: phone,
                     message: message
                 },
+                dataType: "json"
                 cache: false,
                 success: function() {
                     // Success message
