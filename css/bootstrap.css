@@ -5716,11 +5716,18 @@ button.close {
 .carousel {
   position: relative;
 }
+
+@media(max-width: 400px){
+  .carousel-inner{
+      height: 150px !important;
+  }
+}
+
 .carousel-inner {
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 362px;
+  height: 360px;
 }
 .carousel-inner > .item {
   position: relative;

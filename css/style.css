@@ -793,3 +793,10 @@ body {
 .contact_me{
   padding-top: 50px;
 }
+
+@media(max-width: 400px){
+  .icon{
+    width: 35px;
+    height: 35px;
+  }
+}
